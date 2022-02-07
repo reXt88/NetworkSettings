@@ -37,4 +37,6 @@ elif a == "1":
     enp0s8:
       dhcp4: no
       addresses: [{addr2}]''')
+
 os.system("netplan apply")
+print("Network setup is complete")

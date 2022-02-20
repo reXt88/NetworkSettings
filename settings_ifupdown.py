@@ -37,3 +37,4 @@ iface enp0s8 inet static
         address {addr2}
         netmask {netmask2}''')
 os.system("systemctl restart networking.service")
+print("Network setup is complete")
